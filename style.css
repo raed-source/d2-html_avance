@@ -1,0 +1,17 @@
+*{
+    margin:0;
+    padding: 0px;
+}
+.poussin img{
+    width: 740px;
+    height: 400px;
+}
+.photos img{
+    width: 200px;
+    height: 200px;
+}
+form{
+    background: image("./annexes av. 00974DV002MC/annexes devoir 2/img/bkg-form.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
