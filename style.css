@@ -11,7 +11,7 @@
 }
 header {
     grid-column: 1 / span12;
-    background-image: url("./annexes av. 00974DV002MC/annexes devoir 2/img/bkg.jpg");
+    background-image: url();
 }
 .main-grid {
     display: flex;
