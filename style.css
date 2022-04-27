@@ -10,37 +10,70 @@
     /* grid-template-columns: repeat(12, 1fr); */
 }
 header {
-    grid-column: 1 / span 12;
     background-image: url("./images/img/bkg.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     height: 600px;
 }
 main {
-    max-width: calc((1000 / 1200) * 100%);
+    max-width: calc((100% / 12) * 10);
     margin: 0 auto;
 }
 img {
     max-width: 100%;
 }
+section {
+    display: flex;
+}
+article {
+    /* display: block;
+    float: left;
+    position: relative; */
+    padding: 15px;
+}
+h1,
+p {
+    margin: 10px 0px;
+}
 
 .article1 {
-    display: block;
-    float: left;
     width: 50%;
-    padding: 15px;
+    width: calc((100% / 12) * 5);
 }
 .article2 {
-    display: block;
-    float: left;
     width: calc(100% / 3);
-    padding: 15px;
 }
 .article3 {
-    display: block;
-    float: left;
     width: calc(100% / 4);
-    padding: 15px;
+}
+.formulaire {
+    background-image: url("./images/img/bkg-form.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 600px;
+    width: 1200px;
+}
+.main-footer {
+    background: red;
+    padding: 1.1875rem;
+    flex-flow: row wrap;
+    height: 300px;
+}
+
+li {
+    text-decoration: none;
+}
+
+.main-footer a {
+    border-left: 1em solid #ededed;
+    color: #ededed;
+    padding-left: 0.75em;
+    text-decoration: none;
+}
+
+.main-footer a:hover {
+    border-color: #333;
+    color: #333;
 }
 
 @media screen and (max-width: 1080px) {
