@@ -36,7 +36,11 @@ p {
     margin: 10px 0px;
 }
 p {
-    font-size: 30px;
+    font-size: 20px;
+}
+span a {
+    color: aqua;
+    text-decoration: none;
 }
 .formulaire {
     background-image: url("./images/img/bkg-form.jpg");
@@ -64,10 +68,10 @@ li {
     text-decoration: none;
 }
 
-.main-footer a:hover {
+/* .main-footer a:hover {
     border-color: #333;
     color: #333;
-}
+} */
 .flex-ul {
     display: flex;
     justify-content: space-around;
